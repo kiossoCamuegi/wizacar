@@ -105,7 +105,7 @@ function playGame(){
         player.score++;
       
         finalScore = Math.floor(player.score) /100; 
-        score.innerHTML =   ` <img src='./coin.PNG' />  Score :  ${finalScore}`;
+        score.innerHTML =   ` <img src='./coin.png' />  Score :  ${finalScore}`;
 
        
     }
@@ -169,7 +169,7 @@ function endGame(){
         document.querySelector(".car").style.width = "60px";
     }, 1200);
 
-    score.innerHTML =  ` <div>Game Over <br/></div> <img src='./coin.PNG' />  Score  :  ${player.score/100}`; 
+    score.innerHTML =  ` <div>Game Over <br/></div> <img src='./coin.png' />  Score  :  ${player.score/100}`; 
 }
 
 
