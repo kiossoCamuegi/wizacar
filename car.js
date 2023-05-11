@@ -20,9 +20,9 @@ let keys  = {
 
  
 
-function startGame(){
-       
-    var audio = new Audio('./road.mp3');
+function startGame(){ 
+    var audio = new Audio('');
+    audio = Audio('./road.mp3');
     audio.play();
     start()  
     document.querySelector(".car").style.backgroundImage = `url('./truck.png')`;
